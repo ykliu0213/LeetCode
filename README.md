@@ -10,7 +10,7 @@
 ### LongestSubstringWithoutRepeatingCharacters
 > * **Test.java** : testing program.  
 > * **LSWRC.java** : brute-force solution.  
->   * Time complexity : O(n^2)  
+>   * Time complexity : O(n^3)  
 >   * Space complexity : O(n)
 > * **LSWRCHashSet.java** : better solution through HashSet.  
 >   * Time complexity : O(n)  
