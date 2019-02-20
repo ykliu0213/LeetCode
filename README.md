@@ -16,3 +16,7 @@
 >   * Time complexity : O(n)  
 >   * Space complexity : O(min(m,n))  
 > ** *'n' is the size of input string , 'm' is the size of charset.*  
+> * **SingleLoop.java** :　better solution with single loop.
+>   * Time complexity : O(n)
+>   * Space complxxity : O(1)
+
