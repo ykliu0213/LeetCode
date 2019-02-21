@@ -24,4 +24,4 @@
 > * **ReverseInt.java** : brute-force solution.
 >   * Time complexity : O(n)
 >   * Space complexity : O(1)  
-> ** *'n' is the number of digits.
+> ** *'n' is the number of digits.*
