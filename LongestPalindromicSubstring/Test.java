@@ -7,7 +7,9 @@ public class Test {
 		// "" , "a" , "babad"
 		
 		LPS solution = new LPS();
+		ManacherAlgorithm solutionMA = new ManacherAlgorithm();
 		System.out.println("Given input : \"" + input + "\"");
 		System.out.println("Implement with brute-force : " + solution.longestPalindrome(input));
+		System.out.println("Implement with Manacher's Algorithm : " + solutionMA.longestPalindrome(input));
 	}
 }
