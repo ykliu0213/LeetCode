@@ -25,3 +25,9 @@
 >   * Time complexity : O(n)
 >   * Space complexity : O(1)  
 > ** *'n' is the number of digits.*
+### PalindromeNumber
+> * **Test.java** : testing program.
+> * **PdNumber.java** : brute-force solution.
+>   * Time complexity : O(n)
+>   * Space complexity : O(1)  
+> ** *'n' is the number of digits.*
