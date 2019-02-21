@@ -20,4 +20,8 @@
 >   * Time complexity : O(n)
 >   * Space complxxity : O(1)
 ### Reverse Integer
->
+> * **Test.java** : testing program.
+> * **ReverseInt.java** : brute-force solution.
+>   * Time complexity : O(n)
+>   * Space complexity : O(1)  
+> ** *'n' is the number of digits.
