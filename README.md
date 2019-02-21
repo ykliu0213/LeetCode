@@ -1,12 +1,10 @@
 # LeetCode
-### TwoSum
-> * **Test.java** : testing program.  
-> * **TwoSum.java** : brute-force solution.  
->   * Time complexity : O(n^2)  
->   * Space complexity : O(1)
-> * **TwoSumHashMap.java** : better solution through HashMap.  
->   * Time complexity : O(n)  
->   * Space complexity : O(n)
+### LongestPalindromicSubstring
+> * **Test.java** : testing program.
+> * **LPS.java** : brute-force solution.
+>   * Time complexity : O(n^3)
+>   * Space complexity : O(1)  
+> ** *'n' is size of input string.*
 ### LongestSubstringWithoutRepeatingCharacters
 > * **Test.java** : testing program.  
 > * **LSWRC.java** : brute-force solution.  
@@ -19,21 +17,23 @@
 > * **SingleLoop.java** :　better solution with single loop.
 >   * Time complexity : O(n)
 >   * Space complxxity : O(1)
-### Reverse Integer
-> * **Test.java** : testing program.
-> * **ReverseInt.java** : brute-force solution.
->   * Time complexity : O(n)
->   * Space complexity : O(1)  
-> ** *'n' is the number of digits.*
 ### PalindromeNumber
 > * **Test.java** : testing program.
 > * **PdNumber.java** : brute-force solution.
 >   * Time complexity : O(n)
 >   * Space complexity : O(1)  
 > ** *'n' is the number of digits.*
-### LongestPalindromicSubstring
+### Reverse Integer
 > * **Test.java** : testing program.
-> * **LPS.java** : brute-force solution.
->   * Time complexity : O(n^3)
+> * **ReverseInt.java** : brute-force solution.
+>   * Time complexity : O(n)
 >   * Space complexity : O(1)  
-> ** *'n' is size of input string.*
+> ** *'n' is the number of digits.*
+### TwoSum
+> * **Test.java** : testing program.  
+> * **TwoSum.java** : brute-force solution.  
+>   * Time complexity : O(n^2)  
+>   * Space complexity : O(1)
+> * **TwoSumHashMap.java** : better solution through HashMap.  
+>   * Time complexity : O(n)  
+>   * Space complexity : O(n)
