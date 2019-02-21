@@ -31,3 +31,9 @@
 >   * Time complexity : O(n)
 >   * Space complexity : O(1)  
 > ** *'n' is the number of digits.*
+### LongestPalindromicSubstring
+> * **Test.java** : testing program.
+> * **LPS.java** : brute-force solution.
+>   * Time complexity : O(n^3)
+>   * Space complexity : O(1)  
+> ** *'n' is size of input string.*
