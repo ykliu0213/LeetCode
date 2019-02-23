@@ -4,8 +4,8 @@ public class LCP {
 	public String longestCommonPrefix(String[] strs) {
 		String ans = new String();
 		char temp;
-		
-		if (strs == null || strs.length==0) 
+
+		if (strs == null || strs.length == 0)
 			return ans;
 		try {
 			for (int i = 0; i < Integer.MAX_VALUE; i++) {
@@ -19,7 +19,7 @@ public class LCP {
 				}
 			}
 		} catch (StringIndexOutOfBoundsException se) {
-			
+
 		}
 
 		return ans;
