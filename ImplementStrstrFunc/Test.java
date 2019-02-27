@@ -6,9 +6,9 @@ public class Test {
 		String needle = "ll";
 		
 		IS solution = new IS();
-		System.out.println("Given input : ");
-		System.out.println("haystack = \"" + haystack + "\" , needle = \"" + needle + "\"");
-		System.out.println("Output : " + solution.strStr(haystack, needle));
-	
+		IS_indexOf sol = new IS_indexOf();
+		System.out.println("Given input :  [ haystack = \"" + haystack + "\" , needle = \"" + needle + "\" ]");
+		System.out.println("Implement with brute-force : " + solution.strStr(haystack, needle));
+		System.out.println("Implement with indexOf() : " + sol.strStr(haystack, needle));
 	}
 }
