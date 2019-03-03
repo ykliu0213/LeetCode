@@ -7,7 +7,9 @@ public class Test {
 		// 5 , 2147483647
 
 		VPS solution = new VPS();
+		VPS_ShiftOperation sol = new VPS_ShiftOperation();
 		System.out.println("Given input : " + input);
-		System.out.println("Output : " + solution.isPerfectSquare(input));
+		System.out.println("Implement with binary search : " + solution.isPerfectSquare(input));
+		System.out.println("Implement with shift operation : " + sol.isPerfectSquare(input));
 	}
 }
