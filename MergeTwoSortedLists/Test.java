@@ -12,13 +12,22 @@ public class Test {
 		l2.next.next = new ListNode(4);
 		
 		System.out.print("Given input : [");
-		l1.showList(l1);
+		showList(l1);
 		System.out.print("]  ,  [");
-		l2.showList(l2);
+		showList(l2);
 		System.out.println("]");
 		
 		System.out.print("Merge Output : [");
-		l1.showList(solution.mergeTwoLists(l1, l2));
+		showList(solution.mergeTwoLists(l1, l2));
 		System.out.println("]");
 	}
+	
+	public static void showList(ListNode l) {
+		System.out.print(" " + l.val);
+		if (l.next != null) {
+			System.out.print(" ,");
+			showList(l.next);
+		}
+	}
+	
 }
