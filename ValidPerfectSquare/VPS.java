@@ -2,6 +2,8 @@ package ValidPerfectSquare;
 
 public class VPS {
 	public boolean isPerfectSquare(int num) {
+		if(num == 0)
+			return true;
 		int l = 1;
 		int r = num;
 		while (l <= r) {
