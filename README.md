@@ -37,3 +37,26 @@
 > * **TwoSumHashMap.java** : better solution through HashMap.  
 >   * Time complexity : O(n)  
 >   * Space complexity : O(n)
+### ValidPalindrome
+> * **Test.java** : testing program.  
+> * **VP.java** :
+>   * Time complexity : O(n)  
+>   * Space complexity : O(1)
+### ValidPalindromeII
+> * **Test.java** : testing program.  
+> * **VPII.java** :  
+>   * Time complexity : O(n^2)  
+>   * Space complexity : O(1)
+### ValidParentheses
+> * **Test.java** : testing program.  
+> * **VP.java** :   
+>   * Time complexity : O(n)  
+>   * Space complexity :
+### ValidPerfectSquare
+> * **Test.java** : testing program.  
+> * **VPS.java** : binary search.  
+>   * Time complexity : O(log(n))  
+>   * Space complexity : 
+> * **VPS_ShiftOperation.java** :  
+>   * Time complexity : 
+>   * Space complexity :
